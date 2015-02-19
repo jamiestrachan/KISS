@@ -405,6 +405,7 @@ a:hover {
   font-style: italic;
   margin: 1em 0 1em 0;
   line-height: 0.9em;
+  text-transform: lowercase;
 }
 
 .sidebar .footer {
