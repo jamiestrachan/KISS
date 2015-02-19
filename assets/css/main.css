@@ -89,7 +89,8 @@ html {
 body {
   height: 100%;
   max-height: 100%;
-  font-family: 'Lora', serif;
+  /*font-family: 'Lora', serif;*/
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.25em;
   line-height: 1.45em;
   color: #3A4145;
@@ -112,7 +113,7 @@ h4, h5, h6 {
   text-rendering: optimizeLegibility;
   line-height: 1;
   margin-top: 0;
-  font-family: 'Lora', serif;
+  /*font-family: 'Lora', serif;*/
 }
 
 h1 a, h2 a, h3 a,
@@ -326,7 +327,7 @@ a {
 }
 
 a:hover {
-  color: #6565f4;
+  color: #1282ca;
 }
 
 .sidebar {
@@ -348,7 +349,8 @@ a:hover {
 }
 
 .sidebar a:hover {
-  color: #6565f4;
+  /*color: #1282ca;*/
+  color: #e88c0c;
 }
 
 .sidebar .logo {
@@ -436,8 +438,10 @@ a:hover {
 }
 
 .main-nav ul li a:hover {
-    border-color: #6565f4;
-    color: #6565f4;
+    /*border-color: #1282ca;
+    color: #1282ca;*/
+    border-color: #e88c0c;
+    color: #e88c0c;
     transition: 0.2s all;
 }
 
@@ -531,14 +535,14 @@ a:hover {
   width: 100%;
   max-width: 800px;
   margin: 3em 0px;
-  font-family: 'Lora', serif;
+  /*font-family: 'Lora', serif;*/
   font-size: 0.9rem;
   color: #9EABB3;
   text-align: center;
 }
 
 .pagination a {
-  color: #6565f4;
+  color: #1282ca;
 }
 
 .site-footer {
@@ -546,7 +550,7 @@ a:hover {
   bottom: 1em;
   left: 1em;
   right: 1em;
-  font-family: 'Lora', serif;
+  /*font-family: 'Lora', serif;*/
   font-size: .7rem;
   line-height: 1.4em;
   color: #e6e9eb;
