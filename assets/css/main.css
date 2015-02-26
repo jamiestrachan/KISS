@@ -330,6 +330,14 @@ a:hover {
   color: #1282ca;
 }
 
+.offscreen {
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  top: -10px;
+  width: 1px;
+}
+
 .sidebar {
   position: fixed;
   width: 250px;
