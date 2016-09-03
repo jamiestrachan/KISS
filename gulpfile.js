@@ -3,7 +3,7 @@ var gulp = require('gulp');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var del = require('del');
-var minifyCSS = require('gulp-minify-css');
+var cleanCSS = require('gulp-clean-css');
 var streamqueue  = require('streamqueue');
 
 
@@ -37,7 +37,7 @@ gulp.task('minify-css', function() {
         gulp.src('assets/css/main.css'),
         gulp.src('assets/css/prism.css')
     )
-        .pipe(minifyCSS())
+        .pipe(cleanCSS())
         .pipe(concat('all.min.css'))
         .pipe(gulp.dest('assets/build'));
 });
