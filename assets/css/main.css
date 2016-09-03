@@ -453,6 +453,10 @@ a:hover {
     transition: 0.2s all;
 }
 
+.main-nav ul li.nav-current a {
+	border-color: #fff;
+}
+
 .main-nav ul li:last-child {
     margin-bottom: 0;
 }
