@@ -1,5 +1,5 @@
 {
-  "name": "KISS",
+  "name": "kiss",
   "version": "0.1.0",
   "description": "A minimalistic and responsive theme for Ghost.",
   "devDependencies": {
@@ -16,15 +16,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:calincru/KISS.git"
+    "url": "git@github.com:jamiestrachan/KISS.git"
   },
   "keywords": [
     "Ghost",
     "Blog"
   ],
-  "author": "Calin Cruceru",
+  "author": {
+    "name": "Jamie Strachan",
+    "email": "me@jamiestrachan.ca"
+  },
   "license": "MIT",
   "dependencies": {
     "meow": "^3.0.0"
+  },
+  "config": {
+    "posts_per_page": 5
   }
 }
